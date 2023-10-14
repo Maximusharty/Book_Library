@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div class="heading">Library </div>
+    <div class="sub_heading">Add books for Library</div>
+    <form>
+        <div class="Book_title">
+        <label for="title">Book Title</label>
+        <input type="text" id="title" name="Book_title" required>
+        </div>
+        <div class="Book_Author">
+            <label for="author">Book Author</label>
+            <input type="text" id='author' name="Book_Author">
+        </div>
+        <div class="No_of_Pages">
+            <label for="pages">No of pages</label>
+            <input type="number" id="pages" name="No_of_Pages">
+        </div>
+        <div class="submit">
+            <button type="submit" id="submit">Record</button>
+        </div>
+    </form>
+    <div class="table">
+    <table id="Book_details">
+        <tr>
+            <th>Book Title</th>
+            <th>Book Author</th>
+            <th>Pages</th>
+            <th>Status</th>
+            <th>Delete</th>
+
+        </tr>
+        <tr class="default1">
+            <td>Atomic Habits</td>
+            <td>James Clear</td>
+            <td>320</td>
+            <td><button class=" not_read alpha">Not Read</button></td>
+            <td><button class="delete1">Delete</button></td>
+        </tr>
+        <tr class="default2">
+            <td>Code Complete</td>
+            <td>Steve McConnell</td>
+            <td>857</td>
+            <td><button class=" not_read beta">Not Read</button></td>
+            <td><button class="delete2">Delete</button></td>
+        </tr>
+
+
+    </table>
+    </div>
+    
+</body>
+</html>
